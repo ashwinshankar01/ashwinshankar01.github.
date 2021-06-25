@@ -1,0 +1,467 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*
+{
+    box-sizing: border-box; /*Border-box allows us to include padding and border into total width and height*/
+
+}
+
+header,section
+{
+    overflow-x: hidden; /*this property hide all the left and right extra space from horizintally from section*/
+}
+
+:root
+{
+    --primary-font:"poppins", sans-serif;
+    --primary-color: #f05333;
+}
+
+header
+{
+    font-family: var(--primary-font);
+    font-size: 0.9em;
+    /* background: black; */
+    
+}
+
+.logo
+  {
+    width: 80px;
+    height: 10%;
+    float: left;
+  }
+
+header .navbar
+{
+    z-index: 1;
+    position: fixed;
+    background-color:black;
+    width: 100%;
+}
+
+header .nav-item:last-child
+{
+    padding-right: 10.5em;
+}
+
+header .nav-item{
+    padding: 0.9em;
+    font-size: 2.2vmin;
+}
+
+header .navbar-brand
+{
+    padding-left: 8rem;
+}
+
+header .navbar-toggler
+{
+    background-color: darkorange;
+}
+
+header .nav-link
+{
+    color: white;
+}
+
+header .nav-link:hover
+{
+    color: var(--primary-color);
+}
+header .nav-item .active 
+{
+    color: var(--primary-color);
+}
+
+/* mobile navbar */
+@media (max-width: 952px)
+{
+    header .container.navbar.img
+    {
+        font-size:30px;
+        padding-left: 50px;
+    }
+
+    header .nav-item{
+        padding: 0.9em;
+        font-size: 3vmin;
+    }
+    
+
+}
+
+
+
+
+/* Section-1 About Us Heading CSS */
+
+.section-1 .container1 
+{
+    margin-top: 8rem;
+    background-color: white;
+}
+
+.section-1 .container1 h2 
+{
+    text-align: center;
+    color: #f05333;
+    font-size: 3.8em;
+    font-weight: bold;
+    padding: 0.2em 0;
+}
+
+.section-1 .container1 p
+{
+    text-align: center;
+    font-size: 1.5em;
+    color: black;
+    font-family: var(--primary-font);
+    margin-top: 30px;
+}
+
+.section-1
+{
+    background-color: white;
+}
+
+
+
+/* Section-2  CSS part*/
+
+.section-2
+{
+    padding: 5vmin 0;
+    padding-bottom: 15vmin;
+    margin-top: 10vmin;
+    background-color: #f7f7f7;
+}
+
+.section-2 .row .col-md-5 .pray h1 {
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 0.2em 0;
+    font-size: 2.2em;
+    color: #f05333;
+    font-family: var(--primary-font);
+}
+
+.section-2 .row .col-md-5 .pray p {
+    font-size: 1.5em;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: var(--primary-font);
+    margin-bottom: 50px;
+}
+
+.section-2 .row .col-md-6 .panel h1 {
+    font-weight: bold;
+    padding: 0.2em 0;
+    margin-top: 20px;   
+    font-size: 2.2em;
+    color: #f05333;
+    font-family: var(--primary-font);
+}
+
+.section-2 .row .col-md-6 .panel p {
+    font-size: 1.5em;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 50px;
+    font-family: var(--primary-font);
+
+}
+
+/* Dotted Line CSS */
+.vl 
+{
+    border: 2px dashed #f05333;
+    height: 300px;
+    margin-left: 50px;
+}
+
+@media (max-width: 768px)
+{
+    .section-2 .row .vl
+    {
+        border: none;
+        height: 70px;
+    }
+
+}
+
+
+
+/* Core Values Section-3 CSS */
+
+  
+.section-3 .row .col-md-5 .firstbox 
+{
+  border: 2px solid none;
+  padding: 1.5em;
+  width: 90%;
+  height: 23vh;
+  background-color: white;
+  box-shadow: 15px 15px 35px rgba(0,0,0,0.2);
+  margin-bottom: 50px;
+}
+
+.section-3 .row .col-md-5 .firstbox .head
+{
+    color: #f05333;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.section-3 .container
+{
+    margin-top: 5rem;
+    background-color: white;
+}
+
+.section-3 .container h2 
+{
+    text-align: center;
+    color: #f05333;
+    font-size: 3.5em;
+    font-weight: bold;
+    padding: 0.2em 0;
+}
+
+.section-3 .container .para
+{
+    text-align: center;
+    font-size: 1.5em;
+    color: black;
+    font-family: var(--primary-font);
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.section-3 .container .image
+{
+    margin-bottom: 50px;
+}
+
+.section-3 .row .col-md-6 .firstbox
+{
+  border: 2px solid none;
+  padding: 1.5em;
+  width: 90%;
+  height: 26vh;
+  background-color: white;
+  box-shadow: 15px 15px 35px rgba(0,0,0,0.2);
+  margin-bottom: 50px;
+}
+
+.section-3 .row .col-md-6 .firstbox .head
+{
+    color: #f05333;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+@media (max-width: 768px)
+{
+    .section-3 .container .image
+    {
+        width: 100%;
+    }
+
+}
+
+
+/* Core Team CSS */
+
+@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: white;
+  font-family: 'poppins';
+}
+
+.wrapper{
+  margin-top: 50px;
+  font-family: 'poppins';
+    
+}
+
+.wrapper h1{
+  margin: 5%;
+  font-size: 40px;
+  color: #F05333;
+  font-weight: bolder;
+  margin-bottom: 2%;
+  text-align: center;
+  font-family: 'poppins';
+}
+
+.team{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.team .team_member
+{
+  box-shadow: 15px 15px 35px rgba(0,0,0,0.2);
+  background: #fff;
+  margin: 5%;
+  margin-bottom: 50px;
+  width: 250px;
+  padding: 20px;
+  height: 230px;
+  line-height: 20px;
+  color: #8e8b8b;
+  position: relative;
+  /* z-index: -1; */
+}
+
+.team .team_member h3{
+  color: #F05333;
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+.team .team_member p.role{
+  color: #ccc;
+  margin: 12px 0;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.team .team_member .team_img{
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.team .team_member .team_img img{
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+}
+
+/* LikedIn Button Style */
+
+
+.social-menu ul {
+    position: absolute;
+    bottom:-4%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.social-menu ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+.social-menu ul li .fa {
+    color: #000000;
+    font-size: 25px;
+    line-height: 50px;
+    transition: .5s;
+}
+.social-menu ul li .fa:hover {
+    color: #ffffff;
+}
+.social-menu ul li a {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    transition: 0.5s;
+    transform: translate(0,0px);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+.social-menu ul li a:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+.social-menu ul li:nth-child(1) a:hover {
+    background-color: #3b5999;
+}
+.social-menu ul li:nth-child(2) a:hover {
+    background-color: #55acee;
+}
+.social-menu ul li:nth-child(3) a:hover {
+    background-color: #e4405f;
+}
+.social-menu ul li:nth-child(4) a:hover {
+    background-color: #cd201f;
+}
+.social-menu ul li:nth-child(5) a:hover {
+    background-color: #0077B5;
+}
+
+/* Footer CSS */
+
+
+
+footer
+{
+    background: black;
+    overflow-x: hidden;
+    padding: 5vmin 10vmin;
+    font-family: var;
+}
+
+footer p>span
+{
+    color: #f05333;
+}
+
+footer .row .col-md-3 h1
+{
+    color: white;
+    font-family: var(--primary-font);
+}
+
+footer .row .col-md-3 .list-group a
+{
+    background: black;
+    color: grey;
+    font-size: 1.1em;
+    font-family: var(--primary-font);   
+}
+
+footer .row .col-md-3 p{
+    color: grey;
+    font-size: 1.2em;
+    font-family: var(--primary-font);
+}
+
+footer .row .col-md-3 a{
+    color: white;
+    padding: 3vmin;
+    font-size: 25px;
+}
+
+footer .row .col-md-3 a:hover
+{
+    opacity: 0.7;
+    color: #f05333;
+}
+
+.image7{
+    display: table-cell;
+    width: 184px;
+    height: 128px;  
+}
+

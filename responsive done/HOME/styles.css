@@ -1,0 +1,412 @@
+/* navbar */
+.navbar {
+    position: fixed;
+    display: block;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    height: 140px;
+    width: 100%;
+    background-color:black;
+    
+  } 
+  
+  .navbar a {
+    margin-top: 31px;
+    float: left;
+    padding: 5px;
+    color:white;
+    text-decoration: none;
+    font-weight:100 ;
+    font-size: 20px;
+    width: 13%; 
+    text-align: center; 
+  }
+  .image1{
+    margin-top: 12px;
+    margin-left: 40px;
+    margin-right: 15%;
+    width: 10%;
+    float: left;
+  }
+
+  .navbar a:hover {
+  border-bottom: 2px solid #F05333;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  }
+  
+  .navbar a.active {
+    border-bottom: 2px solid #F05333;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;  
+  }
+
+
+
+
+
+
+/* home page */
+
+.large{
+    margin-left: 140px;
+    margin-top:270px;
+    font-size: 48px;
+color: white;
+z-index: 1;
+}
+.first{
+    display: inline-block;
+    background-color: black;
+}  
+
+.image2{
+  margin-top: 160px;
+  margin-left: 30px;
+  margin-right: 40px;
+  width: 530px;
+  height: 400px;
+  float:right;
+}
+.image3{
+    margin-top: 10px;
+    float:left;
+}
+.mid{
+    display: block;
+    margin-top:80px;
+    margin-bottom: 80px;
+}
+.middle{
+    font-family: 'poppins';
+    color: black;
+    margin-right: 40px;
+    height: 500px;
+    margin-left: 600px;
+    text-align: left;   
+}
+
+.who{
+    color: #F05333;
+    font-size: 32px;
+}
+.head{
+    font-size: 40px;
+}
+.content{   
+    font-size: 1.5em;
+}
+.learnmore{
+    font-size: 1.5em;
+    font-style: bold;
+}
+
+
+
+.services_home{
+  display: block;
+  margin-top: 12%;
+}
+.image4{
+  display: block;
+  margin-top: 30px;
+  margin-left:48%; 
+    height: 80px;
+    width: 100px;
+    
+}
+.image4consult{
+  margin-top: 30px;
+  margin-left: 48%;
+    height: 80px;
+    width: 100px;
+}
+.explore{
+    display: flex;
+    text-align: left;
+    font-size: 1em;
+}
+.explorecontainer{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+
+.investmentbankingimage{
+  margin-top: -80px;
+  width:30%;
+  vertical-align: middle;
+  float: right;
+  margin-bottom: 50px;
+
+}
+
+ .invest{
+    width: 60%;
+    float: left;
+    font-size: 1.5em;
+    text-align: left;
+    margin-left: 100px;
+    height: auto;
+
+}
+
+.consultusimage{
+  margin-top: -60px;
+float:left;
+  width: 45%;
+  height: auto;
+}
+
+.consult{
+    font-size: 1.5em;
+    width: auto;
+  text-align: left;
+    height: auto;
+} 
+.consult .texts{
+  margin-top: 40px;
+}
+
+ul{
+    list-style-type:none;
+}
+
+
+/* footer */
+.final{
+    margin:80px -8px -8px -8px;
+    background-color: black;
+    width: fit-content;
+
+}
+
+ .end {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 22px;
+    text-align: left;
+    color:#B3B3B3;
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+} 
+.headingend{
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+.footer {
+  background:black;
+  display: table-cell;
+  color: white;
+  text-align: center;
+  padding: 2.5em 0;
+  font-size: 20px;
+  float:inline-start;
+}
+
+.footer a{
+  color: white;
+  text-decoration: none;
+}
+
+.social-list__link:hover{
+  opacity: 0.7;
+}
+
+.social-list{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 2em 0 0;
+  padding: 0;
+}
+
+.social-list__item{
+  margin: 0 0.5em;
+}
+
+.social-list__link{
+  padding: 0.5em;
+}
+
+.image7{
+  display: table-cell;
+  margin-top: -20%;
+  margin-left: -16%;
+  width: 184px;
+  height: 128px;
+
+}
+
+/* links */
+.end :-webkit-any-link {
+    text-align: left;
+    display: inline-block;
+    font-size: 22px;
+    width: 25%;
+    vertical-align: top;
+    color: #B3B3B3;
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-style: initial;
+    text-decoration-color:black;
+}
+
+
+body{
+    font-family:'poppins';
+}
+
+
+
+/* investment banking page  */
+.grid-container {
+    display: grid;
+    grid-column-gap: 40px;
+    grid-template-columns: auto auto auto auto ;
+    padding: 10px;
+  }
+
+  .grid-item {
+    padding: 30px;
+    font-size: 1.2em;
+    text-align: center;
+  }
+
+
+
+  .split {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  height: 50%;
+  width: 50%;
+  position: absolute;
+  top: 60;
+  overflow-x: hidden;
+  /* overflow-y: scroll; */
+  padding-top: 20px;
+}
+
+.vl {
+  border: 1px dashed  #F05333 ;
+  height: 400px;
+  float: center;
+  position: absolute;
+  left: 50%;
+  letter-spacing: 4px;
+  margin-left: -3px;
+  margin-top: 100px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  /* background-color: #111;    add our background color */
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  /* background-color: red;    add our background color */
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  margin-top: 20px;
+  height: 200px;
+  width: 400px;
+  border-radius: 15%;
+}
+
+
+
+/* about us page */
+
+/* contactus */
+.map{
+  margin-top: -200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.contactimage{
+  margin-top: 60px;
+  float: right;
+  width: 35%;
+
+}
+
+.reachus{
+  background-color: #f7f7f7;
+}
+.phonetext{
+  display: flex;
+  text-align: left;
+  font-weight: 600;
+  font-size: 1.8em;
+  margin-top: 50px;
+}
+.phone{
+  display: flex;
+  margin-left: 80px;
+  align-items: center;
+  justify-content: left;
+  height: 10px;
+  margin-top: 30px;
+}
+
+.emailtext{
+  display: flex;
+  text-align: left;
+  font-weight: 600;
+  font-size: 1.8em;
+  margin-top: 100px;
+}
+.email{
+  display: flex;
+  margin-left: 80px;
+  align-items: center;
+  justify-content: left;
+  height: 10px;
+  margin-top: 50px;
+
+}
+.joinus{
+  margin-top: 100px;
+  text-align: left;
+  margin-left: 250px;
+  font-weight: 500;
+font-size: 1.6em;
+}
+.figure{
+  justify-content: center;
+}
+figcaption{
+  width: 100%;
+  font-size: 1.2em;
+  line-height: 2ch;
+}
+
+.yo{
+  margin-top: 50px;
+  font-weight: 600;
+font-size: 1.2em;
+}

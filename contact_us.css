@@ -1,0 +1,287 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*
+{
+    box-sizing: border-box; /*Border-box allows us to include padding and border into total width and height*/
+
+}
+
+header,section
+{
+    overflow-x: hidden; /*this property hide all the left and right extra space from horizintally from section*/
+}
+
+:root
+{
+    --primary-font:"poppins", sans-serif;
+    --primary-color: #f05333;
+}
+
+header
+{
+    font-family: var(--primary-font);
+    font-size: 0.9em;
+    background: black;
+    
+}
+
+.logo
+  {
+    width: 80px;
+    height: 10%;
+    float: left;
+  }
+
+header .navbar
+{
+    z-index: 1;
+    position: fixed;
+    background-color:black;
+    width: 100%;
+}
+
+header .nav-item:last-child
+{
+    padding-right: 10.5em;
+}
+
+header .nav-item{
+    padding: 0.9em;
+}
+
+header .navbar-brand
+{
+    padding-left: 8rem;
+}
+
+header .navbar-toggler
+{
+    background-color: darkorange;
+}
+
+header .nav-link
+{
+    color: white;
+}
+
+header .nav-link:hover
+{
+    color: var(--primary-color);
+}
+header .nav-item .active 
+{
+    color: var(--primary-color);
+}
+header .row.col-md-5
+{
+    padding: 4.2vmin 1vmin;
+    font-family: var(--primary-font);
+}
+
+header .row.col-md-5 img
+{
+    margin-top: 50%;
+    width: 50%;
+}
+
+
+.container1 .row1 .col-md-12 h1 
+{
+    font-family: var(--primary-font);
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    background-color: white;
+    margin-top: 8rem;
+}
+
+.container1 .row1 .col-md-12 h3
+{
+    font-family: var(--primary-font);
+    letter-spacing: 2px;
+}
+
+
+
+/* mobile navbar */
+@media (max-width: 952px)
+{
+    header .container.navbar.img
+    {
+        font-size:30px;
+        padding-left: 50px;
+    }
+}
+
+
+/* Section-1 CSS  */
+
+.section-1 .container
+{
+    margin-top: 8rem;
+    font-family: var(--primary-font);
+}
+
+.section-1 .container .row .col-md-6 .panel i
+{
+    color: #f05333;
+    padding: 2.8vmin;
+}
+
+.section-1 .container .row .col-md-6 .panel h1
+{
+    font-weight: bolder;
+    font-size: 2.2em;
+} 
+
+.section-1 .container .row .col-md-6 .panel h3
+{
+    font-size: 1.5em;
+    letter-spacing: 2px;
+}
+
+.section-1 .container .row .col-md-6 .panel .email a
+{
+    text-decoration: none;
+}
+
+.section-1 .container .row .col-md-6 .panel .email a:hover
+{
+    color: #f05333;
+}
+
+/* mobile navbar */
+@media (max-width: 952px)
+{
+    .section-1 .container
+    {
+        margin-top: 5rem;
+    }
+
+    .section-1 .container .row .col-md-6 .pray img 
+    {
+        margin-top: 50px;
+    }
+    
+}
+
+
+/* section-2 CSS */
+
+.section-2
+{
+    background-color: #f7f7f7;
+}
+
+.section-2 .container
+{
+    margin-top: 2rem;
+    color: #f05333;
+    font-family: var(--primary-font);
+}
+
+.section-2 .container .row1 h1
+{
+    text-align: center;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+.section-2 .container .row1 img
+{
+    margin-top: -12rem;
+}
+
+
+.section-2 .container .row h1
+{
+    color: #f05333;
+    margin-top: -10rem;
+}
+
+.section-2 .container .row span
+{
+    font-size: 25px;
+    color: black;
+    font-weight: normal;
+}
+
+/* mobile navbar */
+@media (max-width: 952px)
+{
+
+    .section-2 .container .row 
+    {
+        display: block;
+        align-items: left;  /* Vertically text align center krnya sathi */
+        margin-top: 5rem;
+    }
+
+
+
+    .section-2 .container .row1 img 
+    {
+        width: 500px;
+        height: 400px;
+        margin-top: 20px;
+        overflow-y: hidden;
+    }
+
+    .section-2 .container .row .col-md-6 h1 
+    {
+        margin-top: 5px;
+    }
+}
+
+
+
+
+/* Footer */
+
+footer
+{
+    background: black;
+    overflow-x: hidden;
+    padding: 5vmin 10vmin;
+}
+
+footer p>span
+{
+    color: #f05333;
+}
+
+footer .row .col-md-3 h1
+{
+    color: white;
+}
+
+footer .row .col-md-3 .list-group a
+{
+    background: black;
+    color: grey;
+    font-size: 1.1em;
+}
+
+footer .row .col-md-3 p{
+    color: grey;
+    font-size: 1.2em;
+}
+
+footer .row .col-md-3 a{
+    color: white;
+    padding: 3vmin;
+    font-size: 25px;
+}
+
+footer .row .col-md-3 a:hover
+{
+    opacity: 0.7;
+    color: #f05333;
+}
+
+.image7{
+    display: table-cell;
+    width: 184px;
+    height: 128px;  
+}

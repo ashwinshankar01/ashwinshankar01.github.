@@ -1,0 +1,271 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*
+{
+    box-sizing: border-box; /*Border-box allows us to include padding and border into total width and height*/
+
+}
+
+header,section
+{
+    overflow-x: hidden; /*this property hide all the left and right extra space from horizintally from section*/
+}
+
+:root
+{
+    --primary-font:"poppins", sans-serif;
+    --primary-color: #f05333;
+}
+
+header
+{
+    font-family: var(--primary-font);
+    font-size: 0.9em;
+    background: black;
+    
+}
+
+.logo
+  {
+    width: 80px;
+    height: 10%;
+    float: left;
+  }
+
+header .navbar
+{
+    z-index: 1;
+    position: fixed;
+    background-color:black;
+    width: 100%;
+}
+
+header .nav-item:last-child
+{
+    padding-right: 10.5em;
+}
+
+header .nav-item{
+    padding: 0.9em;
+}
+
+header .navbar-brand
+{
+    padding-left: 8rem;
+}
+
+header .navbar-toggler
+{
+    background-color: darkorange;
+}
+
+header .nav-link
+{
+    color: white;
+}
+
+header .nav-link:hover
+{
+    color: var(--primary-color);
+}
+header .nav-item .active 
+{
+    color: var(--primary-color);
+}
+
+header .row.col-md-5
+{
+    padding: 4.2vmin 1vmin;
+    font-family: var(--primary-font);
+}
+
+header .row.col-md-5 img
+{
+    margin-top: 50%;
+    width: 50%;
+}
+
+header .container .col-md-5 h1 
+{
+    font-family: var(--primary-font);
+    text-align: justify;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* Section-1 css */
+
+.section-1
+{
+    padding: 5vmin 0;
+    padding-bottom: 20vmin;
+}
+
+.section-1 .row .col-md-6.pray img
+{
+    opacity: 0.8;
+    width: 80%;
+    border-radius: 0.2em;
+}
+
+.section-1 .row .col-md-6 .panel h1 {
+    font-weight: bold;
+    padding: 0.2em 0;
+    font-size: 2.2em;
+    color: #f05333;
+    font-family: var(--primary-font);
+}
+
+.section-1 .row .col-md-6 .panel p {
+    font-size: 1.2em;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: var(--primary-font);
+}
+
+.explore{
+    display: flex;
+    text-align: left;
+    font-size: 1em; 
+}
+
+.explore a
+{
+    color: black;
+}
+
+.explore a:hover
+{
+    opacity: 0.8;
+    color: #f05333;
+    text-decoration: none;
+}
+
+
+.explorecontainer{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+
+
+/* mobile navbar */
+@media (max-width: 952px)
+{
+    header .container.navbar.img
+    {
+        font-size:30px;
+        padding-left: 50px;
+    }
+
+}
+
+
+/* Section-2 CSS */
+
+.section-2
+{
+    padding-bottom: 20vmin;
+}
+
+.section-2 .row .col-md-6.pray img
+{
+    opacity: 0.8;
+    width: 80%;
+    border-radius: 0.2em;
+}
+
+.section-2 .row .col-md-6 .pray img {
+    margin-top: 5rem;
+    opacity: 0.8;
+    width: 80%;
+    border-radius: 0.2em;
+}
+
+.section-2 .row .col-md-6 .panel p {
+    margin-top: 5rem;
+    font-size: 1.2em;
+    color: rgba(0, 0, 0, 0.5);
+    line-height: 1.6;
+}
+
+/* Section-3 CSS */
+
+.section-3
+{
+    padding: 5vmin 0;
+    padding-bottom: 20vmin;
+}
+
+.section-3 .row .col-md-6.pray img
+{
+    opacity: 0.8;
+    border-radius: 0.2em;
+}
+
+.section-3 .row .col-md-6 .panel p {
+    margin-top: 5rem;
+    font-size: 1.2em;
+    color: rgba(0, 0, 0, 0.5);
+    line-height: 1.6;
+    font-family: var(--primary-font);
+}
+
+
+/* Footer */
+
+footer
+{
+    background: black;
+    overflow-x: hidden;
+    padding: 5vmin 10vmin;
+}
+
+footer p>span
+{
+    color: #f05333;
+}
+
+footer .row .col-md-3 h1
+{
+    color: white;
+}
+
+footer .row .col-md-3 .list-group a
+{
+    background: black;
+    color: grey;
+    font-size: 1.1em;
+}
+
+footer .row .col-md-3 p{
+    color: grey;
+    font-size: 1.2em;
+}
+
+footer .row .col-md-3 a{
+    color: white;
+    padding: 3vmin;
+    font-size: 25px;
+}
+
+footer .row .col-md-3 a:hover
+{
+    opacity: 0.7;
+    color: #f05333;
+}
+
+.image7{
+    display: table-cell;
+    width: 184px;
+    height: 128px;  
+}
+
+
+/* @media (max-width:992px)
+{
+    
+} */
